@@ -5,9 +5,10 @@
 /* FERNGREEN rgb(47, 110, 33) */
 /* DARK GOLDENRON rgb(188, 143, 66) */
 /* RUFOUS rgb(166, 33, 1) */
+/*  */
 
 :root {
-    --primary: #E88F2A;
+    --primary: rgb(188, 143, 66);
     --secondary: #FAF3EB;
     --light: #FFFFFF;
     --dark: #2B2825;
