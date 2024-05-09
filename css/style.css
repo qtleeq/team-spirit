@@ -9,7 +9,7 @@
 
 :root {
     --primary: rgb(232,85,40) !important;
-    --secondary: #FAF3EB;
+    --secondary: rgb(100, 149, 205);
     --light: #FFFFFF;
     --dark: #2B2825;
 }
