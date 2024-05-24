@@ -278,7 +278,6 @@ h6,
 
 .team-item:hover img {
   transform: scale(1.1);
-  filter: blur(5px);
 }
 
 .team-item .team-overlay {
