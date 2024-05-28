@@ -512,100 +512,86 @@
     </form>
     <!-- Form -->
     <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            Column
-          </div>
-          <div class="col">
-            Column
-          </div>
-          <div class="col">
-            Column
-          </div>
-        </div>
+      <div class="row">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
       </div>
-      
+    </div>
+
     <!-- Form Starts -->
     <div class="main">
       <form class="text-center sandwich-form" action="javascript:void(0);">
         <h1 class="orders">Place Your Order Here!</h1>
-        <fieldset class="fieldsets">
-          <legend>Your Info:</legend>
-          <label for="name">Name:</label><br />
-          <input type="text" id="name" name="user_name" /><br />
-          <label for="mail">Email:</label><br />
-          <input type="email" id="mail" name="user_email" /><br />
-          <label for="phone">Phone:</label><br />
-          <input type="tel" id="phone" name="user_tel" /><br />
-          <label for="address">Address:</label><br />
-          <textarea></textarea>
-        </fieldset>
-        <fieldset class="fieldsets">
-          <legend>Toasted:</legend>
-          <input type="radio" id="no" name="toasted" /><label>No</label>
-          <input type="radio" id="yes" name="toasted" /><label>Yes</label><br />
-          <input type="checkbox" id="glutenfree" name="glutenfree" /><label
-            >Cut in half</label
-          >
-        </fieldset>
-        <fieldset class="fieldsets">
-          <legend>Choice of Bagel:</legend>
-          <select id="item1">
-            <option value="1">--Select Item--</option>
-            <option value="Chicken pizza">Plain</option>
-            <option value="Vegetable Pizza">Egg</option>
-            <option value="Chicken Kottu">Cinnamon Raisin</option>
-            <option value="Vegetable Kottu">Sesame</option>
-            <option value="Water Bottle ">Onion</option>
-            <option value="Chicken pizza">Jalepeno</option>
-            <option value="Vegetable Pizza">Pumpernickel</option>
-            <option value="Chicken Kottu">Whole Wheat</option>
-            <option value="Vegetable Kottu">Honey Oat</option>
-            <option value="Water Bottle ">Seven Grain</option>
-            <option value="Chicken pizza">Sundried Tomato</option>
-            <option value="Vegetable Pizza">Everything</option>
-            <option value="Chicken Kottu">Maple</option>
-            <option value="Vegetable Kottu">Blueberry</option>
-            <option value="Water Bottle ">Rye</option>
-            <option value="Chicken pizza">Poppy</option>
-          </select>
-        </fieldset>
-        <fieldset class="fieldsets">
-          <legend>Meats:</legend>
-          <select id="item1">
-            <option value="1">--Select Item--</option>
-            <option value="none">None</option>
-            <option value="turkey">Turkey $4.27</option>
-            <option value="turkey pastrami">Turkey Pastrami $5.31</option>
-            <option value="smoked turkey">Smoked Turkey $4.36</option>
-            <option value="roast beef">Roast Beef $4.79</option>
-            <option value="corned beef">Corned Beef $4.88</option>
-            <option value="veggie">Veggie $4.03</option>
-            <option value="hard salami">Hard Salami $4.27</option>
-            <option value="blt">BLT $4.27</option>
-            <option value="lox">Lox $5.07</option>
-            <option value="rueben">Rueben $5.40</option>
-            <option value="hard salami">Hard Salami $4.27</option>
-            <option value="blt">BLT $4.27</option>
-            <option value="lox">Lox $5.07</option>
-            <option value="rueben">Rueben $5.40</option>
-            <option value="rueben">Breakfast $3.41</option>
-          </select>
-        </fieldset>
-        <fieldset class="fieldsets">
-            <legend>Cheeses:</legend>
-            <select id="item1">
-              <option value="1">--Select Item--</option>
-              <option value="none">None</option>
-              <option value="turkey"> American .50</option>
-              <option value="turkey pastrami"> Gouda .50</option>
-              <option value="smoked turkey"> Swiss .50</option>
-              <option value="roast beef"> Provolone .50</option>
-              <option value="corned beef"> Pepperjack .50</option>
-              <option value="veggie"> Chedder .50</option>
-              <option value="hard salami"> Mozzarella .50</option>
-            </select>
-          </fieldset>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <fieldset class="fieldsets">
+                <legend>Bagel:</legend>
+                <select id="item1">
+                  <option value="1">--Select Item--</option>
+                  <option value="plain">Plain</option>
+                  <option value="egg">Egg</option>
+                  <option value="cinnamon raisin">Cinnamon Raisin</option>
+                  <option value="sesame">Sesame</option>
+                  <option value="onion">Onion</option>
+                  <option value="jalepeno">Jalepeno</option>
+                  <option value="pumpernickel">Pumpernickel</option>
+                  <option value="whole wheat">Whole Wheat</option>
+                  <option value="honey oat">Honey Oat</option>
+                  <option value="seven grain">Seven Grain</option>
+                  <option value="sundried tomato">Sundried Tomato</option>
+                  <option value="everything">Everything</option>
+                  <option value="maple">Maple</option>
+                  <option value="blueberry">Blueberry</option>
+                  <option value="rye">Rye</option>
+                  <option value="poppy">Poppy</option>
+                </select>
+              </fieldset>
+            </div>
+            <div class="col">
+              <fieldset class="fieldsets">
+                <legend>Meat:</legend>
+                <select id="item1">
+                  <option value="1">--Select Item--</option>
+                  <option value="none">None</option>
+                  <option value="turkey">Turkey $4.27</option>
+                  <option value="turkey pastrami">Turkey Pastrami $5.31</option>
+                  <option value="smoked turkey">Smoked Turkey $4.36</option>
+                  <option value="roast beef">Roast Beef $4.79</option>
+                  <option value="corned beef">Corned Beef $4.88</option>
+                  <option value="veggie">Veggie $4.03</option>
+                  <option value="hard salami">Hard Salami $4.27</option>
+                  <option value="blt">BLT $4.27</option>
+                  <option value="lox">Lox $5.07</option>
+                  <option value="rueben">Rueben $5.40</option>
+                  <option value="hard salami">Hard Salami $4.27</option>
+                  <option value="blt">BLT $4.27</option>
+                  <option value="lox">Lox $5.07</option>
+                  <option value="rueben">Rueben $5.40</option>
+                  <option value="rueben">Breakfast $3.41</option>
+                </select>
+              </fieldset>
+            </div>
+            <div class="col">
+              <fieldset class="fieldsets">
+                <legend>Cheese:</legend>
+                <select id="item1">
+                  <option value="1">--Select Item--</option>
+                  <option value="none">None</option>
+                  <option value="american">American .50</option>
+                  <option value="gouda">Gouda .50</option>
+                  <option value="swiss">Swiss .50</option>
+                  <option value="provolone">Provolone .50</option>
+                  <option value="pepperjack">Pepperjack .50</option>
+                  <option value="cheddar">Cheddar .50</option>
+                  <option value="mozzarella">Mozzarella .50</option>
+                </select>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+
         <fieldset class="fieldsets">
           <legend>
             <div class="number">5</div>
@@ -626,10 +612,30 @@
           <input type="checkbox" id="peas" name="peas" /><label>Peas</label>
         </fieldset>
         <fieldset class="fieldsets">
+          <legend>Toasted:</legend>
+          <input type="radio" id="no" name="toasted" /><label>No</label>
+          <input type="radio" id="yes" name="toasted" /><label>Yes</label><br />
+          <input type="checkbox" id="glutenfree" name="glutenfree" /><label
+            >Cut in half</label
+          >
+        </fieldset>
+        <fieldset class="fieldsets">
           <legend>
             <div class="number">6</div>
             Any Allergies/Special Requests:
           </legend>
+          <textarea></textarea>
+        </fieldset>
+
+        <fieldset class="fieldsets">
+          <legend>Your Info:</legend>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="user_name" /><br />
+          <label for="mail">Email:</label><br />
+          <input type="email" id="mail" name="user_email" /><br />
+          <label for="phone">Phone:</label><br />
+          <input type="tel" id="phone" name="user_tel" /><br />
+          <label for="address">Address:</label><br />
           <textarea></textarea>
         </fieldset>
         <input
