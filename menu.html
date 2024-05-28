@@ -386,7 +386,7 @@
     </div> -->
     <!-- Products End -->
     <!-- Default check button for table -->
-    <div class="form-check">
+    <!-- <div class="form-check">
       <input
         class="form-check-input"
         type="checkbox"
@@ -396,10 +396,10 @@
       <label class="form-check-label" for="flexCheckDefault">
         Default checkbox
       </label>
-    </div>
+    </div> -->
     <!-- Default check button for table -->
     <!-- Button with dropdowns -->
-    <div class="input-group mb-3">
+    <!-- <div class="input-group mb-3">
       <button
         class="btn btn-outline-secondary dropdown-toggle"
         type="button"
@@ -420,7 +420,7 @@
         class="form-control"
         aria-label="Text input with dropdown button"
       />
-    </div>
+    </div> -->
     <!-- Button with dropdowns -->
 
     <!-- Table Start -->
@@ -504,25 +504,39 @@
             <div class="col">
               <fieldset class="fieldsets">
                 <legend>Veggies:</legend>
-                <select id="item4">
-                  <option value="1">--Select Item--</option>
-                  <option value="plain">Plain</option>
-                  <option value="egg">Egg</option>
-                  <option value="cinnamon raisin">Cinnamon Raisin</option>
-                  <option value="sesame">Sesame</option>
-                  <option value="onion">Onion</option>
-                  <option value="jalepeno">Jalepeno</option>
-                  <option value="pumpernickel">Pumpernickel</option>
-                  <option value="whole wheat">Whole Wheat</option>
-                  <option value="honey oat">Honey Oat</option>
-                  <option value="seven grain">Seven Grain</option>
-                  <option value="sundried tomato">Sundried Tomato</option>
-                  <option value="everything">Everything</option>
-                  <option value="maple">Maple</option>
-                  <option value="blueberry">Blueberry</option>
-                  <option value="rye">Rye</option>
-                  <option value="poppy">Poppy</option>
-                </select>
+                <input type="checkbox" id="mushrooms" name="mushrooms" /><label
+                  >Lettuce</label
+                ><br />
+                <input type="checkbox" id="onions" name="onions" /><label
+                  >Onion</label
+                ><br />
+                <input type="checkbox" id="carrots" name="carrots" /><label
+                  >Tomato</label
+                ><br />
+                <input type="checkbox" id="celery" name="celery" /><label
+                  >Cucumber</label
+                ><br />
+                <input type="checkbox" id="peas" name="peas" /><label
+                  >Sprouts</label
+                ><br />
+                <input type="checkbox" id="carrots" name="carrots" /><label
+                  >Pickles</label
+                ><br />
+                <input type="checkbox" id="celery" name="celery" /><label
+                  >G.Peppers</label
+                ><br />
+                <input type="checkbox" id="peas" name="peas" /><label
+                  >H.Peppers</label
+                ><br />
+                <input type="checkbox" id="carrots" name="carrots" /><label
+                  >B.Peppers</label
+                ><br />
+                <input type="checkbox" id="celery" name="celery" /><label
+                  >Guacamole</label
+                ><br />
+                <input type="checkbox" id="peas" name="peas" /><label
+                  >Sprouts</label
+                >
               </fieldset>
             </div>
             <div class="col">
@@ -550,23 +564,59 @@
               </fieldset>
             </div>
             <div class="col">
-              <fieldset class="fieldsets">
-                <legend>Add On:</legend>
-                <select id="item1">
-                  <option value="1">--Select Item--</option>
-                  <option value="none">None</option>
-                  <option value="american">American .50</option>
-                  <option value="gouda">Gouda .50</option>
-                  <option value="swiss">Swiss .50</option>
-                  <option value="provolone">Provolone .50</option>
-                  <option value="pepperjack">Pepperjack .50</option>
-                  <option value="cheddar">Cheddar .50</option>
-                  <option value="mozzarella">Mozzarella .50</option>
-                </select>
-              </fieldset>
-            </div>
-          </div>
-        </div>
+                <fieldset class="fieldsets">
+                  <legend>Veggies:</legend>
+                  <input type="checkbox" id="mushrooms" name="mushrooms" /><label
+                    >Lettuce</label
+                  ><br />
+                  <input type="checkbox" id="onions" name="onions" /><label
+                    >Onion</label
+                  ><br />
+                  <input type="checkbox" id="carrots" name="carrots" /><label
+                    >Tomato</label
+                  ><br />
+                  <input type="checkbox" id="celery" name="celery" /><label
+                    >Cucumber</label
+                  ><br />
+                  <input type="checkbox" id="peas" name="peas" /><label
+                    >Sprouts</label
+                  ><br />
+                  <input type="checkbox" id="carrots" name="carrots" /><label
+                    >Pickles</label
+                  ><br />
+                  <input type="checkbox" id="celery" name="celery" /><label
+                    >G.Peppers</label
+                  ><br />
+                  <input type="checkbox" id="peas" name="peas" /><label
+                    >H.Peppers</label
+                  ><br />
+                  <input type="checkbox" id="carrots" name="carrots" /><label
+                    >B.Peppers</label
+                  ><br />
+                  <input type="checkbox" id="celery" name="celery" /><label
+                    >Guacamole</label
+                  ><br />
+                  <input type="checkbox" id="peas" name="peas" /><label
+                    >Sprouts</label
+                  >
+                </fieldset>
+              </div>
+        <fieldset class="fieldsets">
+          <legend>Add Ons:</legend>
+          <input type="checkbox" id="mushrooms" name="mushrooms" /><label
+            >Mushrooms</label
+          ><br />
+          <input type="checkbox" id="onions" name="onions" /><label
+            >Onions</label
+          >
+          <input type="checkbox" id="carrots" name="carrots" /><label
+            >Carrots</label
+          >
+          <input type="checkbox" id="celery" name="celery" /><label
+            >Celery</label
+          >
+          <input type="checkbox" id="peas" name="peas" /><label>Peas</label>
+        </fieldset>
 
         <fieldset class="fieldsets">
           <legend>
