@@ -424,164 +424,201 @@
     <!-- Button with dropdowns -->
 
     <!-- Table Start -->
-    <table class="table table-dark">
-      <thead>
-        Order Now
-      </thead>
-      <tbody>
-        <tr class="table-active">
-          Bagels
-        </tr>
-        <tr>
-          chips
-        </tr>
-        <tr>
-          <th scope="row"> <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              value=""
-              id="flexCheckDefault"
-            />
-            <label class="form-check-label" for="flexCheckDefault">
-              Onions
-            </label>
-          </div></th>
-          <td colspan="2" class="table-active">Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
-        <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-          <tr>
-            <th scope="row"> <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Onions
-              </label>
-            </div></th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td colspan="2" class="table-active">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        
-        <thead>
-          End
-        </thead>
-      </tbody>
-    </table>
+
     <!-- Table End -->
+    <!-- Form -->
+    <form name="tblform">
+      <table width="80%" id="alignment">
+        <tr>
+          <th>Food Item</th>
+          <th></th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Item 1:</td>
+          <td>
+            <select id="item1">
+              <option value="1">--Select Item--</option>
+              <option value="Chicken pizza">Chicken pizza</option>
+              <option value="Vegetable Pizza">Vegetable Pizza</option>
+              <option value="Chicken Kottu">Chicken Kottu</option>
+              <option value="Vegetable Kottu">Vegetable Kottu</option>
+              <option value="Water Bottle ">Water Bottle</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q1" /></td>
+          <td><input type="text" id="p1" /></td>
+        </tr>
+        <tr>
+          <td>Item 2:</td>
+          <td>
+            <select id="item2">
+              <option value="1">--Select Item--</option>
+              <option value="Chicken pizza">Chicken pizza</option>
+              <option value="Vegetable Pizza">Vegetable Pizza</option>
+              <option value="Chicken Kottu">Chicken Kottu</option>
+              <option value="Vegetable Kottu">Vegetable Kottu</option>
+              <option value="Water Bottle ">Water Bottle</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q2" /></td>
+          <td><input type="text" id="p2" /></td>
+        </tr>
+        <tr>
+          <td>Item 3:</td>
+          <td>
+            <select id="item3">
+              <option value="1">--Select Item--</option>
+              <option value="Chicken pizza">Chicken pizza</option>
+              <option value="Vegetable Pizza">Vegetable Pizza</option>
+              <option value="Chicken Kottu">Chicken Kottu</option>
+              <option value="Vegetable Kottu">Vegetable Kottu</option>
+              <option value="Water Bottle ">Water Bottle</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q3" /></td>
+          <td><input type="text" id="p3" /></td>
+        </tr>
+        <tr>
+          <td>Item 4:</td>
+          <td>
+            <select id="item4">
+              <option value="1">--Select Item--</option>
+              <option value="Chicken pizza">Chicken pizza</option>
+              <option value="Vegetable Pizza">Vegetable Pizza</option>
+              <option value="Chicken Kottu">Chicken Kottu</option>
+              <option value="Vegetable Kottu">Vegetable Kottu</option>
+              <option value="Water Bottle ">Water Bottle</option>
+            </select>
+          </td>
+          <td><input type="number" value="0" id="q4" /></td>
+          <td><input type="text" id="p4" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+            <input
+              type="submit"
+              class="button"
+              value="Create Bill"
+              onclick="createBill()"
+            />
+          </td>
+          <td><input type="reset" class="button" value="Clear" /></td>
+        </tr>
+      </table>
+    </form>
+    <!-- Form -->
+    <!-- Form Starts -->
+    <div class="main">
+      
+      <form class="text-center" action="javascript:void(0);">
+        <h1 class="orders">Place Your Order Here!</h1>
+        <fieldset>
+          <legend>Your Info:</legend>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="user_name" /><br />
+          <label for="mail">Email:</label><br />
+          <input type="email" id="mail" name="user_email" /><br />
+          <label for="phone">Phone:</label><br />
+          <input type="tel" id="phone" name="user_tel" /><br />
+          <label for="address">Address:</label><br />
+          <textarea></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Toasted:</legend>
+          <input type="radio" id="no" name="toasted" /><label>No</label>
+          <input type="radio" id="yes" name="toasted" /><label>Yes</label><br />
+          <input type="checkbox" id="glutenfree" name="glutenfree" /><label
+            >Cut in half</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Choice of Bagel:</legend>
+          <select id="item1">
+            <option value="1">--Bagel Varieties--</option>
+            <option value="Chicken pizza">Plain</option>
+            <option value="Vegetable Pizza">Egg</option>
+            <option value="Chicken Kottu">Cinnamon Raisin</option>
+            <option value="Vegetable Kottu">Sesame</option>
+            <option value="Water Bottle ">Onion</option>
+            <option value="Chicken pizza">Jalepeno</option>
+            <option value="Vegetable Pizza">Pumpernickel</option>
+            <option value="Chicken Kottu">Whole Wheat</option>
+            <option value="Vegetable Kottu">Honey Oat</option>
+            <option value="Water Bottle ">Seven Grain</option>
+            <option value="Chicken pizza">Sundried Tomato</option>
+            <option value="Vegetable Pizza">Everything</option>
+            <option value="Chicken Kottu">Maple</option>
+            <option value="Vegetable Kottu">Blueberry</option>
+            <option value="Water Bottle ">Rye</option>
+            <option value="Chicken pizza">Poppy</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Meats:
+          </legend>
+          <select id="item1">
+            <option value="1">--Select Item--</option>
+            <option value="none">None</option>
+            <option value="turkey">Turkey $4.27</option>
+            <option value="turkey pastrami">Turkey Pastrami $5.31</option>
+            <option value="smoked turkey">Smoked Turkey $4.36</option>
+            <option value="roast beef">Roast Beef $4.79</option>
+            <option value="corned beef">Corned Beef $4.88</option>
+            <option value="veggie">Veggie $4.03</option>
+            <option value="hard salami">Hard Salami $4.27</option>
+            <option value="blt">BLT $4.27</option>
+            <option value="lox">Lox $5.07</option>
+            <option value="rueben">Rueben $5.40</option>
+            <option value="hard salami">Hard Salami $4.27</option>
+            <option value="blt">BLT $4.27</option>
+            <option value="lox">Lox $5.07</option>
+            <option value="rueben">Rueben $5.40</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <div class="number">5</div>
+            Extra Fillings:
+          </legend>
+          <input type="checkbox" id="mushrooms" name="mushrooms" /><label
+            >Mushrooms</label
+          ><br />
+          <input type="checkbox" id="onions" name="onions" /><label
+            >Onions</label
+          >
+          <input type="checkbox" id="carrots" name="carrots" /><label
+            >Carrots</label
+          >
+          <input type="checkbox" id="celery" name="celery" /><label
+            >Celery</label
+          >
+          <input type="checkbox" id="peas" name="peas" /><label>Peas</label>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <div class="number">6</div>
+            Any Allergies/Special Requests:
+          </legend>
+          <textarea></textarea>
+        </fieldset>
+        <input
+          class="button"
+          type="submit"
+          value="Give me Food!"
+          onclick="submitForm()"
+        />
+      </form>
+    </div>
+    <div class="order">
+      <h1>Thanks for your order!</h1>
+      <img src="https://i.imgur.com/O0oqbwc.jpg" />
+    </div>
+    <!-- Form Ends -->
 
     <!-- Offer Start -->
     <div class="container-fluid bg-offer my-5 py-5">
@@ -612,6 +649,8 @@
       </div>
     </div>
     <!-- Offer End -->
+
+    <script src="js/app.js"></script>
 
     <!-- Footer Start -->
     <div
