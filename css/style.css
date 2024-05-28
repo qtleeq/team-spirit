@@ -356,9 +356,10 @@ h6,
 }
 
 .sandwich-form {
+  border: 3px solid rgb(232,85,40);
   display: flex;
   flex-direction: column;
-  background: thistle;
+  background: white;
   margin: 0 auto 2em;
   border-radius: 1em;
   padding: 1em 0;
@@ -376,7 +377,7 @@ input:hover,
 textarea:focus,
 textarea:hover {
   background: seashell;
-  border-bottom: 2px solid purple;
+  border-bottom: 2px solid rgb(232,85,40);
   outline: none;
 }
 
@@ -439,3 +440,4 @@ img {
   }
 }
 /* Form Ends */
+/* FLAME rgb(232,85,40) */
