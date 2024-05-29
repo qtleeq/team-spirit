@@ -445,5 +445,12 @@ img {
   background-position: center;
   background-size: cover;
 }
+
+#horizontal {
+  height: 3px;
+  color: rgb(232,85,40);
+  text-align: center;
+  margin: 0px 50px;
+}
 /* Form Ends */
 /* FLAME rgb(232,85,40) */
