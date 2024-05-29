@@ -632,12 +632,38 @@
               </fieldset>
             </div>
           </div>
-          <a href="" class="btn btn-primary py-2 px-4 me-2"
-            >Add to Cart</a
-          >
-
           <br />
-          <div class="row">
+          <br />
+          <a href="" class="btn btn-primary py-2 px-4 me-2"
+            >Add Another Bagel/Sandwich</a
+          >
+          <br />
+          <br />
+          <br />
+          
+          <!-- <fieldset class="fieldsets">
+            <legend>Your Info:</legend>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="user_name" /><br />
+            <label for="mail">Email:</label><br />
+            <input type="email" id="mail" name="user_email" /><br />
+            <label for="phone">Phone:</label><br />
+            <input type="tel" id="phone" name="user_tel" /><br />
+            <label for="address">Address:</label><br />
+            <textarea></textarea>
+          </fieldset> -->
+          <br>
+          <br>
+          <input
+            class="button-men"
+            type="submit"
+            value="Add to Cart"
+            onclick="submitForm()"
+          />
+        </div>
+      </form>
+      <form class="text-center sandwich-form" action="javascript:void(0);">
+        <div class="row">
             <div class="col">
               <fieldset class="fieldsets">
                 <legend>Bagels Bakers DZ:</legend>
@@ -705,34 +731,18 @@
             </div>
           </div>
 
-          <fieldset class="fieldsets">
-            <legend>Your Info:</legend>
-            <label for="name">Name:</label><br />
-            <input type="text" id="name" name="user_name" /><br />
-            <label for="mail">Email:</label><br />
-            <input type="email" id="mail" name="user_email" /><br />
-            <label for="phone">Phone:</label><br />
-            <input type="tel" id="phone" name="user_tel" /><br />
-            <label for="address">Address:</label><br />
-            <textarea></textarea>
-          </fieldset>
-          <input
-            class="button-men"
-            type="submit"
-            value="Give me Food!"
-            onclick="submitForm()"
-          />
-        </div>
-      </form>
+    </form>
+
     </div>
     <div class="order">
       <h1>Thanks for your order!</h1>
       <img src="https://i.imgur.com/O0oqbwc.jpg" />
     </div>
+    
     <!-- Form Ends -->
 
     <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5">
+    <!-- <div class="container-fluid bg-offer my-5 py-5">
       <div class="container py-5">
         <div class="row gx-5 justify-content-center">
           <div class="col-lg-7 text-center">
@@ -758,7 +768,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Offer End -->
 
     <script src="js/app.js"></script>
