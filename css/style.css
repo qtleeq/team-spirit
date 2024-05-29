@@ -439,5 +439,11 @@ img {
     max-width: 50%;
   }
 }
+#bagel-back {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/bagels-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* Form Ends */
 /* FLAME rgb(232,85,40) */

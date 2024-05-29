@@ -38,7 +38,7 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body id="bagel-back">
     <!-- Topbar Start -->
     <div class="container-fluid px-0 d-none d-lg-block">
       <div class="row gx-0">
@@ -114,7 +114,9 @@
           <a href="contact.html" class="nav-item nav-link"
             >Ship & Order Bagels</a
           >
-          <a href="#" class="nav-item nav-link"><i class="bi bi-cart"></i> Cart</a>
+          <a href="#" class="nav-item nav-link"
+            ><i class="bi bi-cart"></i> Cart</a
+          >
         </div>
       </div>
     </nav>
@@ -552,10 +554,10 @@
                 <select id="item5">
                   <option value="1">--Select Item--</option>
                   <option value="none">None</option>
-                  <option value="Soft Plain">Plain</option>
-                  <option value="Soft Plain Light">Garden Vegetable</option>
-                  <option value="Soft Garden Vegetable">Strawberry</option>
-                  <option value="Soft Strawberry ">Chive & Onion</option>
+                  <option value="Plain">Plain $0.45</option>
+                  <option value="Plain Light">Garden Vegetable $0.75</option>
+                  <option value="Garden Vegetable">Strawberry $0.75</option>
+                  <option value="Strawberry ">Chive & Onion $0.75</option>
                 </select>
               </fieldset>
             </div>
@@ -677,37 +679,37 @@
           />
           <br />
         </div>
+        <br />
+        <br />
+        <div>
+          <p>Single Bagels = $0.65 each | XL Bagels = $0.75 each</p>
+        </div>
       </form>
       <form class="text-center sandwich-form" action="javascript:void(0);">
         <h1 class="orders">Need to Feed Multiple People?</h1>
         <div class="row">
           <div class="col">
             <fieldset class="fieldsets">
-              <legend>Bagels Bakers DZ:</legend>
+              <legend>Bagels Bakers Dozen:</legend>
               <select id="item1">
                 <option value="1">--Select Item--</option>
-                <option value="plain">Plain $0.65</option>
-                <option value="egg">Egg $0.65</option>
-                <option value="cinnamon raisin">Cinnamon Raisin $0.65</option>
-                <option value="sesame">Sesame $0.65</option>
-                <option value="onion">Onion $0.65</option>
-                <option value="jalepeno">Jalepeno $0.65</option>
-                <option value="pumpernickel">Pumpernickel $0.65</option>
-                <option value="whole wheat">Whole Wheat $0.65</option>
-                <option value="honey oat">Honey Oat $0.65</option>
-                <option value="seven grain">Seven Grain $0.65</option>
-                <option value="sundried tomato">Sundried Tomato $0.65</option>
-                <option value="everything">Everything $0.65</option>
-                <option value="maple">Maple $0.65</option>
-                <option value="blueberry">Blueberry $0.65</option>
-                <option value="rye">Rye $0.65</option>
-                <option value="poppy">Poppy $0.65</option>
-                <option value="salt">Salt $0.65</option>
-                <option class="divider"></option>
-                <option value="blueberry">XL Bagels</option>
-                <option value="rye">Chocolate Chip $0.75</option>
-                <option value="poppy">Everything $0.75</option>
-                <option value="salt">Sticks $0.75</option>
+                <option value="plain">Plain $7.80</option>
+                <option value="egg">Egg $7.80</option>
+                <option value="cinnamon raisin">Cinnamon Raisin $7.80</option>
+                <option value="sesame">Sesame $7.80</option>
+                <option value="onion">Onion $7.80</option>
+                <option value="jalepeno">Jalepeno $7.80</option>
+                <option value="pumpernickel">Pumpernickel $7.80</option>
+                <option value="whole wheat">Whole Wheat $7.80</option>
+                <option value="honey oat">Honey Oat $7.80</option>
+                <option value="seven grain">Seven Grain $7.80</option>
+                <option value="sundried tomato">Sundried Tomato $7.80</option>
+                <option value="everything">Everything $7.80</option>
+                <option value="maple">Maple $7.80</option>
+                <option value="blueberry">Blueberry $7.80</option>
+                <option value="rye">Rye $7.80</option>
+                <option value="poppy">Poppy $7.80</option>
+                <option value="salt">Salt $7.80</option>
               </select>
             </fieldset>
             <input
@@ -784,7 +786,13 @@
               onclick="submitForm()"
             />
           </div>
-          <br />
+        </div>
+        <br />
+        <div>
+          <p>
+            ***Consuming any raw or undercooked product may cause foodborne
+            illness***
+          </p>
         </div>
       </form>
     </div>
