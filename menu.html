@@ -454,6 +454,12 @@
                   <option value="blueberry">Blueberry</option>
                   <option value="rye">Rye</option>
                   <option value="poppy">Poppy</option>
+                  <option value="salt">Salt</option>
+                  <option class="divider"></option>
+                  <option value="blueberry">XL Bagels</option>
+                  <option value="rye">Chocolate Chip</option>
+                  <option value="poppy">Everything</option>
+                  <option value="salt">Sticks</option>
                 </select>
               </fieldset>
             </div>
@@ -512,7 +518,7 @@
                 ><br />
                 <input type="checkbox" id="tomato" name="tomato" /><label
                   >Tomato</label
-                >
+                ><br />
                 <input type="checkbox" id="cucumber" name="cucumber" /><label
                   >Cucumber</label
                 ><br />
@@ -524,13 +530,13 @@
                 ><br />
                 <input type="checkbox" id="g.peppers" name="g.peppers" /><label
                   >G.Peppers</label
-                >
+                ><br />
                 <input type="checkbox" id="h.peppers" name="h.peppers" /><label
                   >H.Peppers</label
                 ><br />
                 <input type="checkbox" id="b.peppers" name="b.peppers" /><label
                   >B.Peppers</label
-                >
+                ><br />
                 <input type="checkbox" id="guacamole" name="guacamole" /><label
                   >Guacamole</label
                 ><br />
@@ -541,8 +547,20 @@
             </div>
             <div class="col">
               <fieldset class="fieldsets">
+                <legend>Cream Cheese:</legend>
+                <select id="item5">
+                  <option value="1">--Select Item--</option>
+                  <option value="none">None</option>
+                  <option value="Soft Plain">Plain</option>
+                  <option value="Soft Plain Light">Garden Vegetable</option>
+                  <option value="Soft Garden Vegetable">Strawberry</option>
+                  <option value="Soft Strawberry ">Chive & Onion</option>
+                </select>
+              </fieldset>
+            </div>
+            <div class="col">
+              <fieldset class="fieldsets">
                 <legend>Condiments:</legend>
-
                 <input type="checkbox" id="mayo" name="mayo" /><label
                   >Mayo</label
                 ><br />
@@ -568,64 +586,124 @@
                 /><label>Yellow Mustard</label><br />
               </fieldset>
             </div>
+          </div>
+          <fieldset class="fieldsets">
+            <legend>Any Allergies/Special Requests:</legend>
+            <textarea
+              placeholder="Add Turkey, Allergic to Tomato, Extra Mayo, etc."
+            ></textarea>
+          </fieldset>
+          <div class="row">
             <div class="col">
               <fieldset class="fieldsets">
-                <legend>Cream Cheese:</legend>
-                <select id="item5">
+                <legend>Toasted:</legend>
+                <input type="radio" id="no" name="toasted" /><label>No</label>
+                <input type="radio" id="yes" name="toasted" /><label>Yes</label
+                ><br />
+              </fieldset>
+            </div>
+            <div class="col">
+              <fieldset class="fieldsets">
+                <legend>Quantity:</legend>
+                <select id="item1">
                   <option value="1">--Select Item--</option>
-                  <option value="none">None</option>
-                  <option value="Soft Plain">Plain</option>
-                  <option value="Soft Plain Light">Garden Vegetable</option>
-                  <option value="Soft Garden Vegetable">Strawberry</option>
-                  <option value="Soft Strawberry ">Chive & Onion</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
                 </select>
               </fieldset>
             </div>
           </div>
-          <fieldset class="fieldsets">
-            <legend>Toasted:</legend>
-            <input type="radio" id="no" name="toasted" /><label>No</label>
-            <input type="radio" id="yes" name="toasted" /><label>Yes</label
-            ><br />
-          </fieldset>
-          <div class="col">
-            <fieldset class="fieldsets">
-              <legend>Kraft 8oz Cream Cheese:</legend>
-              <select id="item5">
-                <option value="1">--Select Item--</option>
-                <option value="none">None</option>
-                <option value="Soft Plain">Soft Plain $5.30</option>
-                <option value="Soft Plain Light">Soft Plain Light $5.30</option>
-                <option value="Soft Garden Vegetable">
-                  Soft Garden Vegetable $5.30
-                </option>
-                <option value="Soft Strawberry ">Soft Strawberry $5.30</option>
-                <option value="Soft Straw Light ">
-                  Soft Straw light $5.30
-                </option>
-                <option value="Soft blueberry">Soft Blueberry $5.30</option>
-                <option value="Soft Jalepeno ">Soft Jalepeno $5.30</option>
-                <option value="Soft Pineapple">Soft Pineapple $5.30</option>
-                <option value="Soft Honey Butter">
-                  Soft Honey Butter $5.30
-                </option>
-                <option value="Soft  Honey Nut">Soft Honey Nut $5.30</option>
-                <option value="Soft Salmon">Soft Salmon $5.30</option>
-                <option value="Soft brn sugar cinn">
-                  Soft brn sugar cinn $5.30
-                </option>
-                <option value="Whipped Plain">Whipped Plain $5.30</option>
-                <option value="Whipped Chive">Whipped Chive $5.30</option>
-              </select>
-            </fieldset>
+          <a href="" class="btn btn-primary py-2 px-4 me-2"
+            >Add to Cart</a
+          >
+
+          <br />
+          <div class="row">
+            <div class="col">
+              <fieldset class="fieldsets">
+                <legend>Bagels Bakers DZ:</legend>
+                <select id="item1">
+                  <option value="1">--Select Item--</option>
+                  <option value="plain">Plain $0.65</option>
+                  <option value="egg">Egg $0.65</option>
+                  <option value="cinnamon raisin">Cinnamon Raisin $0.65</option>
+                  <option value="sesame">Sesame $0.65</option>
+                  <option value="onion">Onion $0.65</option>
+                  <option value="jalepeno">Jalepeno $0.65</option>
+                  <option value="pumpernickel">Pumpernickel $0.65</option>
+                  <option value="whole wheat">Whole Wheat $0.65</option>
+                  <option value="honey oat">Honey Oat $0.65</option>
+                  <option value="seven grain">Seven Grain $0.65</option>
+                  <option value="sundried tomato">Sundried Tomato $0.65</option>
+                  <option value="everything">Everything $0.65</option>
+                  <option value="maple">Maple $0.65</option>
+                  <option value="blueberry">Blueberry $0.65</option>
+                  <option value="rye">Rye $0.65</option>
+                  <option value="poppy">Poppy $0.65</option>
+                  <option value="salt">Salt $0.65</option>
+                  <option class="divider"></option>
+                  <option value="blueberry">XL Bagels</option>
+                  <option value="rye">Chocolate Chip $0.75</option>
+                  <option value="poppy">Everything $0.75</option>
+                  <option value="salt">Sticks $0.75</option>
+                </select>
+              </fieldset>
+            </div>
+            <div class="col">
+              <fieldset class="fieldsets">
+                <legend>Kraft 8oz Cream Cheese:</legend>
+                <select id="item5">
+                  <option value="1">--Select Item--</option>
+                  <option value="none">None</option>
+                  <option value="Soft Plain">Soft Plain $5.30</option>
+                  <option value="Soft Plain Light">
+                    Soft Plain Light $5.30
+                  </option>
+                  <option value="Soft Garden Vegetable">
+                    Soft Garden Vegetable $5.30
+                  </option>
+                  <option value="Soft Strawberry ">
+                    Soft Strawberry $5.30
+                  </option>
+                  <option value="Soft Straw Light ">
+                    Soft Straw light $5.30
+                  </option>
+                  <option value="Soft blueberry">Soft Blueberry $5.30</option>
+                  <option value="Soft Jalepeno ">Soft Jalepeno $5.30</option>
+                  <option value="Soft Pineapple">Soft Pineapple $5.30</option>
+                  <option value="Soft Honey Butter">
+                    Soft Honey Butter $5.30
+                  </option>
+                  <option value="Soft  Honey Nut">Soft Honey Nut $5.30</option>
+                  <option value="Soft Salmon">Soft Salmon $5.30</option>
+                  <option value="Soft Brown Sugar Cinnamon">
+                    Soft Brown Sugar Cinnamon $5.30
+                  </option>
+                  <option value="Whipped Plain">Whipped Plain $5.30</option>
+                  <option value="Whipped Chive">Whipped Chive $5.30</option>
+                </select>
+              </fieldset>
+            </div>
           </div>
-          <fieldset class="fieldsets">
-            <legend>
-              <div class="number">6</div>
-              Any Allergies/Special Requests:
-            </legend>
-            <textarea></textarea>
-          </fieldset>
 
           <fieldset class="fieldsets">
             <legend>Your Info:</legend>
