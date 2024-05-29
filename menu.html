@@ -596,6 +596,21 @@
           <div class="row">
             <div class="col">
               <fieldset class="fieldsets">
+                <legend>Chips:</legend>
+                <select id="item1">
+                  <option value="1">--Route 11 Chips--</option>
+                  <option value="Lightly Salted">Lightly Salted $1.42</option>
+                  <option value="BBQ">BBQ $1.42</option>
+                  <option value="Dill Pickle">Dill Pickle $1.42</option>
+                  <option value="Sweet Potato">Sweet Potato $1.42</option>
+                  <option value="Salt n Vinegar">Salt n Vinegar $1.42</option>
+                  <option value="Mamazuma Red">Mamazuma Red $1.42</option>
+                  <option value="Chive & Onion">Chive & Onion $1.42</option>
+                </select>
+              </fieldset>
+            </div>
+            <div class="col">
+              <fieldset class="fieldsets">
                 <legend>Toasted:</legend>
                 <input type="radio" id="no" name="toasted" /><label>No</label>
                 <input type="radio" id="yes" name="toasted" /><label>Yes</label
@@ -606,7 +621,7 @@
               <fieldset class="fieldsets">
                 <legend>Quantity:</legend>
                 <select id="item1">
-                  <option value="1">--Select Item--</option>
+                  <option value="1">--Select Amount--</option>
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -640,7 +655,7 @@
           <br />
           <br />
           <br />
-          
+
           <!-- <fieldset class="fieldsets">
             <legend>Your Info:</legend>
             <label for="name">Name:</label><br />
@@ -652,93 +667,131 @@
             <label for="address">Address:</label><br />
             <textarea></textarea>
           </fieldset> -->
-          <br>
-          <br>
+
           <input
             class="button-men"
             type="submit"
             value="Add to Cart"
             onclick="submitForm()"
           />
+          <br />
         </div>
       </form>
       <form class="text-center sandwich-form" action="javascript:void(0);">
+        <h1 class="orders">Need to Feed Multiple People?</h1>
         <div class="row">
-            <div class="col">
-              <fieldset class="fieldsets">
-                <legend>Bagels Bakers DZ:</legend>
-                <select id="item1">
-                  <option value="1">--Select Item--</option>
-                  <option value="plain">Plain $0.65</option>
-                  <option value="egg">Egg $0.65</option>
-                  <option value="cinnamon raisin">Cinnamon Raisin $0.65</option>
-                  <option value="sesame">Sesame $0.65</option>
-                  <option value="onion">Onion $0.65</option>
-                  <option value="jalepeno">Jalepeno $0.65</option>
-                  <option value="pumpernickel">Pumpernickel $0.65</option>
-                  <option value="whole wheat">Whole Wheat $0.65</option>
-                  <option value="honey oat">Honey Oat $0.65</option>
-                  <option value="seven grain">Seven Grain $0.65</option>
-                  <option value="sundried tomato">Sundried Tomato $0.65</option>
-                  <option value="everything">Everything $0.65</option>
-                  <option value="maple">Maple $0.65</option>
-                  <option value="blueberry">Blueberry $0.65</option>
-                  <option value="rye">Rye $0.65</option>
-                  <option value="poppy">Poppy $0.65</option>
-                  <option value="salt">Salt $0.65</option>
-                  <option class="divider"></option>
-                  <option value="blueberry">XL Bagels</option>
-                  <option value="rye">Chocolate Chip $0.75</option>
-                  <option value="poppy">Everything $0.75</option>
-                  <option value="salt">Sticks $0.75</option>
-                </select>
-              </fieldset>
-            </div>
-            <div class="col">
-              <fieldset class="fieldsets">
-                <legend>Kraft 8oz Cream Cheese:</legend>
-                <select id="item5">
-                  <option value="1">--Select Item--</option>
-                  <option value="none">None</option>
-                  <option value="Soft Plain">Soft Plain $5.30</option>
-                  <option value="Soft Plain Light">
-                    Soft Plain Light $5.30
-                  </option>
-                  <option value="Soft Garden Vegetable">
-                    Soft Garden Vegetable $5.30
-                  </option>
-                  <option value="Soft Strawberry ">
-                    Soft Strawberry $5.30
-                  </option>
-                  <option value="Soft Straw Light ">
-                    Soft Straw light $5.30
-                  </option>
-                  <option value="Soft blueberry">Soft Blueberry $5.30</option>
-                  <option value="Soft Jalepeno ">Soft Jalepeno $5.30</option>
-                  <option value="Soft Pineapple">Soft Pineapple $5.30</option>
-                  <option value="Soft Honey Butter">
-                    Soft Honey Butter $5.30
-                  </option>
-                  <option value="Soft  Honey Nut">Soft Honey Nut $5.30</option>
-                  <option value="Soft Salmon">Soft Salmon $5.30</option>
-                  <option value="Soft Brown Sugar Cinnamon">
-                    Soft Brown Sugar Cinnamon $5.30
-                  </option>
-                  <option value="Whipped Plain">Whipped Plain $5.30</option>
-                  <option value="Whipped Chive">Whipped Chive $5.30</option>
-                </select>
-              </fieldset>
-            </div>
+          <div class="col">
+            <fieldset class="fieldsets">
+              <legend>Bagels Bakers DZ:</legend>
+              <select id="item1">
+                <option value="1">--Select Item--</option>
+                <option value="plain">Plain $0.65</option>
+                <option value="egg">Egg $0.65</option>
+                <option value="cinnamon raisin">Cinnamon Raisin $0.65</option>
+                <option value="sesame">Sesame $0.65</option>
+                <option value="onion">Onion $0.65</option>
+                <option value="jalepeno">Jalepeno $0.65</option>
+                <option value="pumpernickel">Pumpernickel $0.65</option>
+                <option value="whole wheat">Whole Wheat $0.65</option>
+                <option value="honey oat">Honey Oat $0.65</option>
+                <option value="seven grain">Seven Grain $0.65</option>
+                <option value="sundried tomato">Sundried Tomato $0.65</option>
+                <option value="everything">Everything $0.65</option>
+                <option value="maple">Maple $0.65</option>
+                <option value="blueberry">Blueberry $0.65</option>
+                <option value="rye">Rye $0.65</option>
+                <option value="poppy">Poppy $0.65</option>
+                <option value="salt">Salt $0.65</option>
+                <option class="divider"></option>
+                <option value="blueberry">XL Bagels</option>
+                <option value="rye">Chocolate Chip $0.75</option>
+                <option value="poppy">Everything $0.75</option>
+                <option value="salt">Sticks $0.75</option>
+              </select>
+            </fieldset>
+            <input
+              class="button-men"
+              type="submit"
+              value="Add to Cart"
+              onclick="submitForm()"
+            />
           </div>
 
-    </form>
+          <div class="col">
+            <fieldset class="fieldsets">
+              <legend>Kraft 8oz Cream Cheese:</legend>
+              <select id="item5">
+                <option value="1">--Select Item--</option>
+                <option value="none">None</option>
+                <option value="Soft Plain">Soft Plain $5.30</option>
+                <option value="Soft Plain Light">Soft Plain Light $5.30</option>
+                <option value="Soft Garden Vegetable">
+                  Soft Garden Vegetable $5.30
+                </option>
+                <option value="Soft Strawberry ">Soft Strawberry $5.30</option>
+                <option value="Soft Straw Light ">
+                  Soft Straw light $5.30
+                </option>
+                <option value="Soft blueberry">Soft Blueberry $5.30</option>
+                <option value="Soft Jalepeno ">Soft Jalepeno $5.30</option>
+                <option value="Soft Pineapple">Soft Pineapple $5.30</option>
+                <option value="Soft Honey Butter">
+                  Soft Honey Butter $5.30
+                </option>
+                <option value="Soft  Honey Nut">Soft Honey Nut $5.30</option>
+                <option value="Soft Salmon">Soft Salmon $5.30</option>
+                <option value="Soft Brown Sugar Cinnamon">
+                  Soft Brown Sugar Cinnamon $5.30
+                </option>
+                <option value="Whipped Plain">Whipped Plain $5.30</option>
+                <option value="Whipped Chive">Whipped Chive $5.30</option>
+              </select>
+            </fieldset>
+            <input
+              class="button-men"
+              type="submit"
+              value="Add to Cart"
+              onclick="submitForm()"
+            />
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col">
+            <fieldset class="fieldsets">
+              <legend>Meats by 1/4lb:</legend>
+              <select id="item1">
+                <option value="1">--Select Amount--</option>
+                <option value="Turkey Pastrami">Turkey Pastrami $3.90</option>
+                <option value="Smoked Turkey">Smoked Turkey $2.55</option>
+                <option value="Roasted Turkey">Roasted Turkey $2.50</option>
+                <option value="Corned Beef">Corned Beef $3.00</option>
+                <option value="Roast Beef">Roast Beef $3.89</option>
+                <option value="Hard Salami">Hard Salami $2.69</option>
+                <option value="Blazing chicken">Blazing Chicken $2.65</option>
+                <option value="Honey Ham">Honey Ham $2.43</option>
+                <option value="Lox">Lox $7.25</option>
+              </select>
+            </fieldset>
+          </div>
+          <br />
+          <div>
+            <input
+              class="button-men"
+              type="submit"
+              value="Add to Cart"
+              onclick="submitForm()"
+            />
+          </div>
+          <br />
+        </div>
+      </form>
     </div>
     <div class="order">
       <h1>Thanks for your order!</h1>
       <img src="https://i.imgur.com/O0oqbwc.jpg" />
     </div>
-    
+
     <!-- Form Ends -->
 
     <!-- Offer Start -->
